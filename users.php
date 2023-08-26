@@ -12,7 +12,7 @@ echo "<p style='margin:auto'>USERS DATA</p>";
 //include "styles.php";
 $sql = "SELECT * FROM users";
 $result = $conn->query($sql);
-
+//helloworld
 if ($result->num_rows > 0) {
   // output data of each row
   //Test
